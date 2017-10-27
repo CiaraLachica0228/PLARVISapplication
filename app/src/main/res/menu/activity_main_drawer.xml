@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/ic_account_circle_black_24dp"
+            android:title="Profile" />
+        <item
+            android:id="@+id/nav_journal"
+            android:icon="@drawable/ic_class_black_24dp"
+            android:title="Plant Journal" />
+        <item
+            android:id="@+id/nav_uses"
+            android:icon="@drawable/ic_filter_list_black_24dp"
+            android:title="Plant Uses" />
+        <item
+            android:id="@+id/nav_techniques"
+            android:icon="@drawable/ic_check_black_24dp"
+            android:title="Planting Techniques"/>
+        <item
+            android:id="@+id/nav_finder"
+            android:icon="@drawable/ic_place_black_24dp"
+            android:title="Plant Finder"/>
+
+         </group>
+     
+        <item android:title="Other">
+            <menu>
+
+            <item
+                android:id="@+id/nav_about"
+                android:title="About Us"/>
+            <item
+                android:id="@+id/nav_privacy"
+                android:title="Privacy Policy" />
+     </menu>
+        </item>
+
+</menu>
