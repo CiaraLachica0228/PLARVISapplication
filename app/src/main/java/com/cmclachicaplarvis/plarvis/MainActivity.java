@@ -84,8 +84,6 @@ public class MainActivity extends AppCompatActivity
 
         if (id == R.id.nav_profile) {
 
-        } else if (id == R.id.nav_journal) {
-
         } else if (id == R.id.nav_uses) {
 
         } else if (id == R.id.nav_techniques) {

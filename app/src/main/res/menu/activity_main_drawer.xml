@@ -6,21 +6,21 @@
             android:id="@+id/nav_profile"
             android:icon="@drawable/ic_account_circle_black_24dp"
             android:title="Profile" />
-        <item
+       <!-- <item
             android:id="@+id/nav_journal"
             android:icon="@drawable/ic_class_black_24dp"
-            android:title="Plant Journal" />
+            android:title="Plant Journal" /> -->
         <item
             android:id="@+id/nav_uses"
-            android:icon="@drawable/ic_filter_list_black_24dp"
+            android:icon="@drawable/ic_uses"
             android:title="Plant Uses" />
         <item
             android:id="@+id/nav_techniques"
-            android:icon="@drawable/ic_check_black_24dp"
+            android:icon="@drawable/ic_techniques"
             android:title="Planting Techniques"/>
         <item
             android:id="@+id/nav_finder"
-            android:icon="@drawable/ic_place_black_24dp"
+            android:icon="@drawable/ic_location"
             android:title="Plant Finder"/>
 
          </group>
