@@ -1,15 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:compat="http://schemas.android.com/tools">
 
     <group android:checkableBehavior="single">
         <item
             android:id="@+id/nav_profile"
             android:icon="@drawable/ic_account_circle_black_24dp"
             android:title="Profile" />
-       <!-- <item
-            android:id="@+id/nav_journal"
-            android:icon="@drawable/ic_class_black_24dp"
-            android:title="Plant Journal" /> -->
         <item
             android:id="@+id/nav_uses"
             android:icon="@drawable/ic_uses"
@@ -22,6 +20,11 @@
             android:id="@+id/nav_finder"
             android:icon="@drawable/ic_location"
             android:title="Plant Finder"/>
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/ic_logout"
+            android:title="Logout" />
+
 
          </group>
      

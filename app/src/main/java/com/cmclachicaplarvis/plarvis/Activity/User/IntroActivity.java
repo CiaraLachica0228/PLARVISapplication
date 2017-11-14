@@ -1,4 +1,4 @@
-package com.cmclachicaplarvis.plarvis;
+package com.cmclachicaplarvis.plarvis.Activity.User;
 
 import android.content.Context;
 import android.content.Intent;
@@ -17,6 +17,8 @@ import android.view.WindowManager;
 import android.widget.Button;
 import android.widget.LinearLayout;
 import android.widget.TextView;
+
+import com.cmclachicaplarvis.plarvis.R;
 
 public class IntroActivity extends AppCompatActivity {
 

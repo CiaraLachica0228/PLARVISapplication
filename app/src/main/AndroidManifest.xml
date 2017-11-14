@@ -9,19 +9,39 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".LoginActivity">
+        <activity android:name=".Activity.User.LoginActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Activity.User.RegistrationActivity" />
+        <activity
+            android:name=".Activity.User.MainActivity"
+            android:label="@string/nav_profile"
+            android:theme="@style/AppTheme" />
+        <activity android:name=".Activity.User.IntroActivity" />
+        <activity
+            android:name=".Activity.User.UsesActivity"
+            android:label="@string/nav_uses"/>
+        <activity android:name=".Activity.User.SplashScreenActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".RegistrationActivity" />
         <activity
-            android:name=".MainActivity"
-            android:label="@string/app_name"
+            android:name=".Activity.Admin.AddPlantActivity"
+            android:label="@string/title_activity_add_plant"
             android:theme="@style/AppTheme" />
-        <activity android:name=".IntroActivity"></activity>
+        <activity
+            android:name=".Activity.Admin.ViewActivity"
+            android:label="@string/title_activity_view"
+            android:theme="@style/AppTheme"></activity>
     </application>
+
+
 
 </manifest>

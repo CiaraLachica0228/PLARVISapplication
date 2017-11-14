@@ -1,4 +1,4 @@
-package com.cmclachicaplarvis.plarvis;
+package com.cmclachicaplarvis.plarvis.Activity.User;
 
 import android.content.Context;
 import android.content.SharedPreferences;
