@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "318377653283",
+    "firebase_url": "https://plarvis-app.firebaseio.com",
+    "project_id": "plarvis-app",
+    "storage_bucket": "plarvis-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:318377653283:android:fea454eff8d3dcd7",
+        "android_client_info": {
+          "package_name": "com.cmclachicaplarvis.plarvis"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "318377653283-bok4c5e6ddhsmvgl0gj7u7uv81terprd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC6KSCFHEJwuHNcngFvYxIoEyAq1rGSNRg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

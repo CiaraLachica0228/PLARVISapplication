@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.cmclachicaplarvis.plarvis.User.TermsConditionActivity"
+    tools:showIn="@layout/app_bar_terms_condition"
+    android:background="@color/bg_color">
+
+    <ScrollView
+        android:layout_width="336dp"
+        android:layout_height="463dp"
+        android:id="@+id/scrollview"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:id="@+id/View3"
+            android:paddingLeft="15dp"
+            android:paddingRight="10dp"
+            android:text="@string/termandcondition"/>
+
+        <TextView
+            android:id="@+id/View4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_below="@id/View3"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp"
+            android:text="Having Trouble using the application? Need Help?"
+            android:paddingLeft="20dp"
+            android:textStyle="bold"/>
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_below="@id/View4"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="150dp"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/telphone"
+            android:src="@drawable/phone"/>
+
+        <TextView
+            android:id="@+id/View5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_centerHorizontal="true"
+            android:text="+639067424405"
+            android:paddingLeft="150dp"/>
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_below="@id/View4"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="150dp"
+            android:id="@+id/mail"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/mail"/>
+
+        <TextView
+            android:id="@+id/View6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_below="@id/mail"
+            android:layout_centerHorizontal="true"
+            android:text="teamplarvis@gmail.com"
+            android:paddingLeft="150dp"/>
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

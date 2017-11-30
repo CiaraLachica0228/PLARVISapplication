@@ -14,13 +14,18 @@
     <!-- Button Theme -->
 
     <style name="MyButton" parent="Theme.AppCompat.Light">
-        <item name="colorControlHighlight">#00E6E6</item>
-        <item name="colorButtonNormal">#009999</item>
+        <item name="colorControlHighlight">#009999</item>
+        <item name="colorButtonNormal">#00715C</item>
     </style>
 
     <style name="MyButton1" parent="Theme.AppCompat.Light">
         <item name="colorControlHighlight">#D966FF</item>
         <item name="colorButtonNormal">#CC33FF</item>
+    </style>
+
+    <style name="MyButton2" parent="Theme.AppCompat.Light">
+        <item name="colorControlHighlight">#FF5C5C</item>
+        <item name="colorButtonNormal">#953636</item>
     </style>
 
     <!-- TabLayout theme -->
@@ -54,7 +59,7 @@
 
     <!--Search View-->
 
-   <style name="MaterialSearchViewStyle">
+    <style name="MaterialSearchViewStyle">
 
         <!-- Background for the search bar-->
         <item name="searchBackground">@color/colorPrimary</item>

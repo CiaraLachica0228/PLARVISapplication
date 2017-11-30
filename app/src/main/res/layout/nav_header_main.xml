@@ -9,12 +9,12 @@
         android:layout_width="match_parent"
         android:layout_height="140dp"
         android:layout_alignParentTop="true"
-        android:background="@drawable/cover">
+        android:background="@color/sbg">
 
         <ImageView
-            android:layout_width="180dp"
-            android:layout_height="180dp"
-            android:src="@drawable/logo"
+            android:layout_width="500dp"
+            android:layout_height="140dp"
+            android:src="@drawable/slogo"
             android:scaleType="fitCenter"
             android:layout_centerInParent="true" />
          

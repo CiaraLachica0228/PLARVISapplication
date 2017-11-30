@@ -13,13 +13,21 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
 
+    <FrameLayout
+        android:id="@+id/fragment_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
     <android.support.design.widget.NavigationView
         android:id="@+id/nav_view"
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
         android:layout_gravity="start"
         android:fitsSystemWindows="true"
-        app:headerLayout="@layout/nav_header_view"
-        app:menu="@menu/activity_view_drawer" />
+        android:background="@color/bg_color"
+        app:headerLayout="@layout/nav_header_main"
+        app:menu="@menu/activity_main_drawer"
+        app:itemTextColor="@drawable/navigation_selector"
+        app:itemIconTint="@drawable/navigation_selector"/>
 
 </android.support.v4.widget.DrawerLayout>

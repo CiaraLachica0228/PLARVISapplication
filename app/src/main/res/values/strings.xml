@@ -5,17 +5,26 @@
     <string name="app_name">PLARVIS</string>
     <string name="hint_email">Email</string>
     <string name="hint_password">Password</string>
-    <string name="hint_name">Full Name</string>
+    <string name="hint_name">User Name</string>
     <string name="hint_contact">Contact Number</string>
     <string name="hint_confirm">Confirm Password</string>
     <string name="btn_login">LOGIN</string>
     <string name="btn_register">REGISTER</string>
     <string name="btn_link_to_register">Not a member? Sign up now.</string>
     <string name="btn_link_to_login">Already registered! Login Me.</string>
-    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_main">Profile</string>
     <string name="title_activity_add_plant">Add Plant</string>
     <string name="title_activity_view">View Plant</string>
-
+    <string name="action_sign_in_short">Register</string>
+    <string name="email">Email</string>
+    <string name="minimum_password">Password too short, enter minimum 6 characters!</string>
+    <string name="auth_failed">Authentication failed, check your email and password or sign up</string>
+    <string name="btn_forgot_password">Forgot your password?</string>
+    <string name="btn_reset_password">Reset Password</string>
+    <string name="btn_back"><![CDATA[<< Back]]></string>
+    <string name="btn_sign_out">Sign Out</string>
+    <string name="lbl_forgot_password">Forgot password?</string>
+    <string name="forgot_password_msg">We just need your registered Email Id to sent you password reset instructions.</string>
 
     `<!-- Navigation Drawer -->
 
@@ -70,7 +79,7 @@
     <string name="slide_2_title">Plant Uses</string>
     <string name="slide_2_desc">Search and Identify which herbal plant can cure your health disease</string>
 
-    <string name="slide_3_title">Plant Techniques</string>
+    <string name="slide_3_title">Planting Techniques</string>
     <string name="slide_3_desc">Best planting techniques are now available, serve from your trusted experts</string>
 
     <string name="slide_4_title">Plant Finder</string>
@@ -81,4 +90,26 @@
 
     <string name="search">Search</string>
 
+    <string name="passwordToggleContentDescription">Toggle password visibility</string>
+
+
+    <string name="error_email">Invalid Email</string>
+    <string name="error_password">Invalid password</string>
+    <string name="title_activity_about">About Us</string>
+    <string name="title_activity_terms_condition">Terms and Condition</string>
+
+    <!-- About Us -->
+
+    <string name="about_us_1">\t\tIn recognition of the deep seated practice of traditional medicine as an alternative modality for treating and preventing diseases in the Philippines, the Department of Health (DOH) through its former Secretary Juan M. Flavier launched the Traditional Medicine Program in 1992. This program aims to promote an effective and safe use of traditional medicine.
+        \n\n\t\tThen President Fidel V. Ramos appreciated the importance of the traditional medicine program and signed into law Republic Act 8423 (R.A. 8423), otherwise known as the Traditional and Alternative Medicine Act (TAMA) of 1997. This gave rise to the creation of Philippine Institute of Traditional and Alternative Health Care (PITAHC) which is tasked to promote and advocates the use of traditional and alternative health care modalities through scientific research and product development.
+        \n\n\t\tSince then the Philippine Department of Health (DOH) through its "Traditional Health Program" has endorsed 10 medicinal plants to be used as herbal medicine in Philippines due to its health benefits.
+        \n\n\t\tAs poverty is imminent in our country, people are finding cheaper alternatives to expensive medical treatments in curing their illnesses and improving their overall health. As such, there has been a rise in popularity of using medicinal plants.
+        \n\n\t\tInspired by this, Plarvis is an application that is created for  people with the desire to grow their own plants for medicinal purposes.
+        \n\n\t\tPlarvis uses a plant survey to measure the knowledge of the user in planting, so it can provide the correct information to the user.  The application contains information about the plants including its scientific name,the best ways on how to grow them,as well as the best ways on how to prepare them for certain treatments. The application also uses GIS mapping in order to locate the availability of the plants that the user wants.</string>
+    <string name="termandcondition">\n\nDisclaimer:
+        \n\n\t\t Although recommended by the Department of Health (DOH), there are no therapeutic claims in healing the various diseases that it is said to remedy. Please consult a doctor before consuming these plants as users might be allergic to these plants.
+        \n\n\t\t This application needs to access your Location Services information upon using the Plant Finder features. Users are encourage to allow the access to successfully used the application without failure. </string>
+    <string name="develp">\n\n Lachica, Ciara May C. - APPLICATION PROGRAMMER
+                \n\n Rey, Maeryll Shane A. - APPLICATION PROGRAMMER
+                 \n\n Reyes, Emma Luisa B. - APPLICATION DESIGNER</string>
 </resources>

@@ -2,11 +2,14 @@
 <resources>
     <color name="colorPrimary">#017C67</color>
     <color name="colorPrimaryDark">#00715C</color>
-    <color name="colorAccent">#00CC44</color>
+    <color name="colorAccent">#017C67</color>
     <color name="bg_login">#009999</color>
-    <color name="bg_register">#2e3237</color>
+    <color name="login">#26ae90</color>
+    <color name="sbg">#002143</color>
+    <color name="bg_register">#CC33FF</color>
+    <color name="rblue">#724374</color>
     <color name="colorLight">#FF66DC</color>
-    <color name="bg_main">#428bca</color>
+    <color name="bg_main">#a0e6d0</color>
     <color name="white">#ffffff</color>
     <color name="input_login">#222222</color>
     <color name="bg_color">#CCCCCC</color>

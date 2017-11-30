@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.cmclachicaplarvis.plarvis">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -9,23 +11,23 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Activity.User.LoginActivity">
+        <activity android:name=".User.LoginActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-        <activity android:name=".Activity.User.RegistrationActivity" />
+        <activity android:name=".User.RegistrationActivity" />
         <activity
-            android:name=".Activity.User.MainActivity"
+            android:name=".User.MainActivity"
             android:label="@string/nav_profile"
             android:theme="@style/AppTheme" />
-        <activity android:name=".Activity.User.IntroActivity" />
+        <activity android:name=".User.IntroActivity" />
         <activity
-            android:name=".Activity.User.UsesActivity"
-            android:label="@string/nav_uses"/>
-        <activity android:name=".Activity.User.SplashScreenActivity">
+            android:name=".User.UsesActivity"
+            android:label="@string/nav_uses" />
+        <activity android:name=".User.SplashScreenActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -33,15 +35,21 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".Activity.Admin.AddPlantActivity"
+            android:name=".Admin.AddPlantActivity"
             android:label="@string/title_activity_add_plant"
             android:theme="@style/AppTheme" />
         <activity
-            android:name=".Activity.Admin.ViewActivity"
+            android:name=".Admin.ViewActivity"
             android:label="@string/title_activity_view"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".User.AboutActivity"
+            android:label="@string/title_activity_about"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".User.TermsConditionActivity"
+            android:label="@string/title_activity_terms_condition"
             android:theme="@style/AppTheme"></activity>
     </application>
-
-
 
 </manifest>
