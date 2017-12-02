@@ -38,7 +38,7 @@ public class AboutActivity extends AppCompatActivity
     private ViewPager viewPager;
 
     int images[] = {R.drawable.slider1,R.drawable.slider2,R.drawable.slider3};
-    MyCustomPagerAdapter myCustomPagerAdapter;
+    com.cmclachicaplarvis.plarvis.User.MyCustomPagerAdapter myCustomPagerAdapter;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
