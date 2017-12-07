@@ -27,28 +27,14 @@
         <android.support.design.widget.AppBarLayout
             android:id="@+id/appbarlayout"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:background="@color/search_layover_bg">
+            android:layout_height="wrap_content">
 
-            <!-- Must be last for right layering display -->
-
-            <FrameLayout
-                android:id="@+id/toolbar_container"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content">
 
                 <android.support.v7.widget.Toolbar
                     android:id="@+id/toolbar"
                     android:layout_width="match_parent"
                     android:layout_height="?attr/actionBarSize"
                     android:background="@color/colorPrimary" />
-
-                <com.cmclachicaplarvis.library.MaterialSearchView
-                    android:id="@+id/search_view"
-                    style="@style/MaterialSearchViewStyle"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content" />
-            </FrameLayout>
 
         </android.support.design.widget.AppBarLayout>
 

@@ -122,4 +122,10 @@
     <color name="theme_icons">#FFFFFF</color>
     <color name="theme_divider">#B6B6B6</color>
 
+
+    <color name="colorWhite">#ffffff</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorMild">#9d9c9c</color>
+    <color name="colorDivider">#eae6e6</color>
+
 </resources>

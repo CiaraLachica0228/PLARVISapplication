@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_color">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/pname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:padding="5dp"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:text="Name: "/>
+
+            <TextView
+                android:id="@+id/upname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:padding="5dp"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:layout_below="@+id/pname"/>
+
+            <TextView
+                android:id="@+id/psname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:padding="5dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:text="Scientific Name: "
+                android:layout_below="@+id/upname"/>
+
+            <TextView
+                android:id="@+id/upsname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:padding="5dp"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:layout_below="@+id/psname"/>
+
+            <TextView
+                android:id="@+id/puses"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:padding="5dp"
+                android:textSize="20sp"
+                android:text="Uses: "
+                android:layout_below="@+id/upsname"/>
+
+            <TextView
+                android:id="@+id/upuses"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:padding="5dp"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:layout_below="@+id/puses"/>
+
+            <TextView
+                android:id="@+id/psteps"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:padding="5dp"
+                android:textSize="20sp"
+                android:text="Steps in Preparation: "
+                android:layout_below="@+id/upuses"/>
+
+            <TextView
+                android:id="@+id/upsteps"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:padding="5dp"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:layout_below="@+id/psteps"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

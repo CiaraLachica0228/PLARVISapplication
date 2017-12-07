@@ -4,6 +4,7 @@
 
     <string name="app_name">PLARVIS</string>
     <string name="hint_email">Email</string>
+    <string name="hint_exp_id">Expert Identification Number</string>
     <string name="hint_password">Password</string>
     <string name="hint_name">User Name</string>
     <string name="hint_contact">Contact Number</string>
@@ -21,10 +22,16 @@
     <string name="auth_failed">Authentication failed, check your email and password or sign up</string>
     <string name="btn_forgot_password">Forgot your password?</string>
     <string name="btn_reset_password">Reset Password</string>
+    <string name="btn_confirm">Confirm</string>
+    <string name="btn_admin">Plant Expert</string>
+    <string name="btn_user">Plant User</string>
     <string name="btn_back"><![CDATA[<< Back]]></string>
     <string name="btn_sign_out">Sign Out</string>
     <string name="lbl_forgot_password">Forgot password?</string>
+    <string name="lbl_exp_id">Log in as an Admin</string>
+    <string name="lbl_choice">Choose the type of your Transaction: </string>
     <string name="forgot_password_msg">We just need your registered Email Id to sent you password reset instructions.</string>
+    <string name="verification_msg">We just need your registered Identification Number to verify if you are a legitimate plant expert.</string>
 
     `<!-- Navigation Drawer -->
 
@@ -112,4 +119,26 @@
     <string name="develp">\n\n Lachica, Ciara May C. - APPLICATION PROGRAMMER
                 \n\n Rey, Maeryll Shane A. - APPLICATION PROGRAMMER
                  \n\n Reyes, Emma Luisa B. - APPLICATION DESIGNER</string>
+    <string name="add_plant_uses">Add Plant Uses</string>
+    <string name="plant_name">Name</string>
+    <string name="p_scientific">Scientific Name</string>
+    <string name="p_uses">Uses</string>
+    <string name="steps_to_prepare">Steps to Prepare:</string>
+    <string name="view">View</string>
+    <string name="delete">Delete</string>
+    <string name="title_activity_techniques">TechniquesActivity</string>
+
+    <string name="profile_names">Display name</string>
+    <string name="profile_name">Delaroy Studios</string>
+    <string name="induce_smile">Delaroy Studios</string>
+
+
+    <string name="edit_profile_name">Name</string>
+    <string name="edit_profile_phone">Phone number</string>
+    <string name="edit_profile_hobby">Hobby</string>
+    <string name="select_date">Date</string>
+    <string name="save_edit">Save edit</string>
+
+    <string name="menu_settings">Settings</string>
+    <string name="menu_logout">Logout</string>
 </resources>

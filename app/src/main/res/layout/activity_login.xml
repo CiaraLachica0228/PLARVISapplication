@@ -47,7 +47,6 @@
         android:layout_marginTop="8dp"
         android:ems="10"
         android:maxLines="1"
-        android:imeOptions="actionNext"
         android:textColorHint="@color/colorPrimaryDark"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
@@ -63,7 +62,8 @@
             android:layout_height="wrap_content"
             android:hint="@string/hint_email"
             android:inputType="textEmailAddress"
-            android:textColor="@color/black" />
+            android:textColor="@color/black"
+            android:imeOptions="actionNext"/>
     </android.support.design.widget.TextInputLayout>
 
     <android.support.design.widget.TextInputLayout
@@ -97,7 +97,8 @@
             android:layout_height="wrap_content"
             android:hint="@string/hint_password"
             android:inputType="textPassword"
-            android:textColor="@color/black"/>
+            android:textColor="@color/black"
+            android:imeOptions="actionDone"/>
 
     </android.support.design.widget.TextInputLayout>
 

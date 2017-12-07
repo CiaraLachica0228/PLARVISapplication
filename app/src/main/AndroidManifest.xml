@@ -3,6 +3,7 @@
     package="com.cmclachicaplarvis.plarvis">
 
     <uses-permission android:name="android.permission.INTERNET" />
+    <!--<uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>-->
 
     <application
         android:allowBackup="true"
@@ -49,7 +50,14 @@
         <activity
             android:name=".User.TermsConditionActivity"
             android:label="@string/title_activity_terms_condition"
-            android:theme="@style/AppTheme"></activity>
+            android:theme="@style/AppTheme" />
+        <activity android:name=".ChooseActivity" />
+        <activity android:name=".Admin.VerificationActivity" />
+        <activity
+            android:name=".User.TechniquesActivity"
+            android:label="@string/title_activity_techniques"
+            android:theme="@style/AppTheme" />
+        <activity android:name=".User.EditProfileActivity"></activity>
     </application>
 
 </manifest>
