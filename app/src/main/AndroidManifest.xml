@@ -27,7 +27,8 @@
         <activity android:name=".User.IntroActivity" />
         <activity
             android:name=".User.UsesActivity"
-            android:label="@string/nav_uses" />
+            android:label="@string/nav_uses"
+            android:theme="@style/AppTheme" />
         <activity android:name=".User.SplashScreenActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

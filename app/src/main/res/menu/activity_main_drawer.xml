@@ -20,10 +20,10 @@
             android:id="@+id/nav_finder"
             android:icon="@drawable/ic_location"
             android:title="Plant Finder"/>
-        <item
+        <!--<item
             android:id="@+id/nav_logout"
             android:icon="@drawable/ic_logout"
-            android:title="Logout" />
+            android:title="Logout" />-->
 
 
          </group>

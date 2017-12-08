@@ -120,10 +120,10 @@ public class TermsConditionActivity extends AppCompatActivity
                 Intent e = new Intent(TermsConditionActivity.this, TechniquesActivity.class);
                startActivity(e);
                break;
-            case R.id.nav_logout:
-                Intent l = new Intent(TermsConditionActivity.this, LoginActivity.class);
-                startActivity(l);
-                break;
+           // case R.id.nav_logout:
+           //     Intent l = new Intent(TermsConditionActivity.this, LoginActivity.class);
+           //     startActivity(l);
+            //    break;
             //case R.id.nav_finder:
             //    Intent v = new Intent(MainActivity.this, FinderActivity.class);
             //   startActivity(v);

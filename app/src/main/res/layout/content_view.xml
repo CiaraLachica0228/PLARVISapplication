@@ -45,7 +45,7 @@
                 android:layout_weight="1"
                 android:text="Search"
                 android:gravity="center"
-                android:id="@+id/btn_search"
+                android:id="@+id/btn_vsearch"
                 android:textStyle="bold"
                 android:theme="@style/MyButton"
                 android:textColor="@color/btn_login_bg"
@@ -63,7 +63,7 @@
             android:layout_height="wrap_content"
             android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true"
-            android:layout_below="@+id/btn_search" />
+            android:layout_below="@+id/btn_vsearch" />
 
     </RelativeLayout>
 

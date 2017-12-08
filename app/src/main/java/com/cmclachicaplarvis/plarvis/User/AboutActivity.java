@@ -144,10 +144,10 @@ public class AboutActivity extends AppCompatActivity
                 Intent i = new Intent(AboutActivity.this, TechniquesActivity.class);
                 startActivity(i);
                 break;
-            case R.id.nav_logout:
-                Intent l = new Intent(AboutActivity.this, LoginActivity.class);
-                startActivity(l);
-                break;
+           // case R.id.nav_logout:
+            //    Intent l = new Intent(AboutActivity.this, LoginActivity.class);
+            //    startActivity(l);
+            //    break;
             //case R.id.nav_finder:
             //    Intent v = new Intent(MainActivity.this, FinderActivity.class);
             //   startActivity(v);

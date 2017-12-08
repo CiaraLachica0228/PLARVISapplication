@@ -44,7 +44,7 @@ public class TechniquesActivity extends AppCompatActivity
     private DrawerLayout drawer;
     private NavigationView navigationView;
     private Button btnsearch;
-    private EditText txtsearch;
+    private EditText ttxtsearch;
     LayoutInflater inflater1;
     ListView listView;
     ArrayList<Data> dataArrayList;
@@ -81,8 +81,8 @@ public class TechniquesActivity extends AppCompatActivity
         databaseReference = firebaseDatabase.getReference().child("Uses");
         key = databaseReference.push().getKey();
 
-        txtsearch = (EditText) findViewById(R.id.tsearch);
-        btnsearch = (Button) findViewById(R.id.btn_tsearch);
+        //txtsearch = (EditText) findViewById(R.id.tsearch);
+        //btnsearch = (Button) findViewById(R.id.btn_tsearch);
         listView = (ListView) findViewById(R.id.readlist);
 
         dataArrayList = new ArrayList<>();
@@ -194,13 +194,13 @@ public class TechniquesActivity extends AppCompatActivity
             }
         });
 
-        //txtsearch = (EditText) findViewById(R.id.search);
+        ttxtsearch = (EditText) findViewById(R.id.tsearch);
 
         findViewById(R.id.btn_tsearch).setOnClickListener(new View.OnClickListener() {
                                                               @Override
                                                               public void onClick(View view) {
 
-                  name = txtsearch.getText().toString().trim();
+                  name = ttxtsearch.getText().toString().trim();
 
                   databaseReference.orderByChild("name").equalTo(name).addListenerForSingleValueEvent(new ValueEventListener() {
                   @Override
@@ -317,10 +317,10 @@ public class TechniquesActivity extends AppCompatActivity
                 Intent i = new Intent(TechniquesActivity.this, TechniquesActivity.class);
                 startActivity(i);
                 break;
-            case R.id.nav_logout:
-                Intent l = new Intent(TechniquesActivity.this, LoginActivity.class);
-                startActivity(l);
-                break;
+            //case R.id.nav_logout:
+             //   Intent l = new Intent(TechniquesActivity.this, LoginActivity.class);
+            //    startActivity(l);
+            //    break;
             //case R.id.nav_finder:
             //    Intent v = new Intent(MainActivity.this, FinderActivity.class);
             //   startActivity(v);
